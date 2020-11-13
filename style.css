@@ -80,6 +80,9 @@ a{
 
 @media screen and (max-width:600px)
 {   
+    body{
+        background-image:url("clipmobile.jpg");
+    
     img{
          height:230px;
          width:230px;
