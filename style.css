@@ -1,0 +1,78 @@
+header{
+    background-color:rgba(0, 0, 0, 0.37);
+    height:80px;
+    width:100%;
+    margin:0;
+    padding:10px;
+}
+
+body{
+    margin:0;
+    padding:0;
+    background-image:url("clip.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:center center;
+}
+
+/*footer{
+    background-color:rgba(0, 0, 0, 0.37);
+    height:30px;
+}*/
+
+.footer{
+    background-color:rgba(0, 0, 0, 0.37);
+    font-size:15px;
+    margin-top:105px;
+    text-align:center;
+    text-decoration:none;
+}
+
+.mentions{
+    cursor:pointer;
+    color:white;
+    text-decoration:underline;
+}
+
+p{
+    font-size:45px;
+    text-align:center;
+    color:white;
+    font-family: 'Syncopate', sans-serif;
+    margin-top:17px;
+}
+
+img{
+    height:350px;
+    width:350px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    /*margin-top: 40vh; /* poussé de la moitié de hauteur de viewport */
+    /*transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */
+    border-radius:20px;
+    box-shadow: 5px 5px 5px 5px black;
+}
+
+.bouton{
+    cursor: pointer;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    height:60px;
+    width:200px;
+    border-radius:5px;
+    background-color:black;
+    color:white;
+    font-family:"Syncopate", "sans-serif";
+}
+
+a{
+    text-decoration:none;
+}
+
+.centre{
+    display: block;
+    transform: translateY(10%);
+}
